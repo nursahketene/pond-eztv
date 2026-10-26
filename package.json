@@ -1,0 +1,42 @@
+{
+  "name": "pond-eztv",
+  "title": "EZTV Tracker",
+  "description": "Track your shows on EZTV: episodes by season and quality, the best magnet link, the next air date, and what you've already downloaded",
+  "categories": ["Media"],
+  "license": "MIT",
+  "author": "nursahketene",
+  "icon": "icon.png",
+  "platforms": ["Linux"],
+  "commands": [
+    {
+      "name": "shows",
+      "title": "EZTV Shows",
+      "subtitle": "EZTV Tracker",
+      "description": "Browse your tracked shows, search for new ones, and open episodes in your torrent client",
+      "mode": "view",
+      "keywords": ["tv", "torrent", "episodes", "eztv"]
+    },
+    {
+      "name": "downloads",
+      "title": "EZTV Downloads",
+      "subtitle": "EZTV Tracker",
+      "description": "Everything you've sent to your torrent client, newest first",
+      "mode": "view",
+      "keywords": ["tv", "torrent", "history", "eztv"]
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "typescript": "^5.9.2"
+  }
+}
