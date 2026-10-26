@@ -8,6 +8,10 @@ history of everything you've sent to your torrent client.
 A port of [oma-eztv](https://github.com/nursahketene/oma-eztv), the Omarchy bar plugin, with
 download tracking added.
 
+| EZTV Shows | EZTV Downloads |
+|---|---|
+| ![Tracked shows with next air dates and the last downloaded episode](screenshots/shows.png) | ![Download history grouped by day](screenshots/downloads.png) |
+
 ## Commands
 
 **EZTV Shows**
